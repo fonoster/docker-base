@@ -7,5 +7,4 @@ WORKDIR /scripts
 RUN adduser fonos --disabled-password \
   --gecos "" \
   --home /home/fonos
-
-
+RUN chmod +x install.sh
