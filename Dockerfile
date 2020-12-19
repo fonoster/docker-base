@@ -1,8 +1,8 @@
 FROM alpine:3.12
 LABEL maintainer="Pedro Sanders <psanders@fonoster.com>"
 ENV USER=fonos
-ENV GID=42
-ENV UID=42
+ENV GID=4242
+ENV UID=4242
 ENV HOME=/home/fonos
 
 COPY . /scripts
