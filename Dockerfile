@@ -6,6 +6,8 @@ WORKDIR /scripts
 RUN adduser fonos --disabled-password \
   --gecos "" \
   --home /home/fonos
+  --uid 1000
+  --gid 1000
 RUN chmod +x install.sh
 
 # Re-mapping the signal from 143 to 0
